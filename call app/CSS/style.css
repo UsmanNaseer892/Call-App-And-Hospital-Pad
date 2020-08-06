@@ -1,0 +1,855 @@
+button:focus {
+  outline: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: black;
+}
+
+.call {
+  width: 319px;
+  height: auto;
+  padding: 0;
+  box-shadow: 1px 2px 14px -1px rgba(0, 0, 0, 0.75);
+}
+
+.call-header {
+  display: inline-flex;
+  background-color: #f4f4f4;
+  width: 100%;
+}
+
+.call-header .dropdown {
+  background: #f4f4f4;
+}
+
+.btn-phone,
+.btn-view,
+.btn-contact,
+.btn-help,
+.btn-avaliable,
+.btn-incoming,
+.btn-headset,
+.btn-range-option,
+.btn-number,
+.btn-user-option,
+.btn-dailpad,
+.btn-favorites,
+.btn-conference {
+  font-size: 14px;
+  padding: 1px 10px;
+  border: 0;
+  background: transparent;
+}
+.btn-phone:hover,
+.btn-view:hover,
+.btn-contact:hover,
+.btn-help:hover {
+  background-color: #dfdfdf;
+}
+
+.call-header .dropdown-menu {
+  padding: 0;
+  min-width: 110px !important;
+}
+
+.call-header .dropdown-item {
+  font-size: 12px;
+  padding: 0.25rem 1.5rem;
+}
+
+.call-header .dropdown-item:hover {
+  background-color: #dfdfdf;
+}
+
+.dropdown-divider {
+  margin: 0;
+}
+
+.call-header .dropdown-menu.view-menu .dropdown-item {
+  padding: 0.25rem 0.5rem !important;
+}
+
+.call-header .dropdown-menu.contact-menu .dropdown-item {
+  padding: 0.25rem 0.5rem !important;
+}
+
+.fa-check {
+  margin-right: 3px;
+}
+
+.fa-circle {
+  font-size: 6px;
+  margin-right: 6px;
+}
+
+.call-header .dropdown-menu.contact-menu .space {
+  margin-right: 17px;
+}
+
+.call-items {
+  background-color: #f4f4f4;
+  padding: 5px 0;
+}
+
+.call-item-1,
+.call-item-2,
+.call-item-3 {
+  padding: 7px 10px 3px;
+  height: 40px;
+}
+
+.call-avaliable .fa-check-circle {
+  font-size: 26px;
+  color: #8cc835;
+}
+
+.call-avaliable {
+  width: 50%;
+  float: left;
+  display: flex;
+}
+
+.btn-avaliable,
+.btn-incoming,
+.btn-headset,
+.btn-range-option,
+.btn-number,
+.btn-user-option {
+  margin-top: 10px;
+  font-size: 16px;
+  position: relative;
+}
+
+.btn-avaliable span,
+.btn-incoming span {
+  position: absolute;
+  bottom: 22px;
+  font-size: 11px;
+  left: 10px;
+}
+
+.avaliable-menu,
+.incoming-menu,
+.headset-menu,
+.range-menu,
+.user-menu {
+  padding: 0;
+}
+
+.avaliable-menu .dropdown-item,
+.incoming-menu .dropdown-item,
+.headset-menu .dropdown-item,
+.range-menu .dropdown-item,
+.user-menu .dropdown-item {
+  padding: 0.25rem 0.5rem;
+  font-size: 12px;
+}
+
+.avaliable-menu .dropdown-item:hover,
+.incoming-menu .dropdown-item:hover,
+.headset-menu .dropdown-item:hover,
+.range-menu .dropdown-item:hover,
+.call-number .collapse .card.card-body .dropdown-item:hover,
+.user-menu .dropdown-item:hover,
+.history-menu li:hover,
+.history-submenu li:hover {
+  background-color: #dfdfdf;
+}
+
+.call-avaliable .avaliable-menu .fa-check-circle {
+  font-size: 18px;
+  color: #8cc835;
+}
+
+.avaliable-menu .fas {
+  font-size: 18px;
+}
+
+.cirlce-phone {
+  width: 18px;
+  height: 18px;
+  background: red;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+
+.fas.fa-phone {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  color: white;
+  font-size: 10px;
+}
+
+.line-busy {
+  width: 18px;
+  height: 2px;
+  top: 8px;
+  position: absolute;
+  background-color: white;
+  transform: rotate(137deg);
+}
+
+.fa-clock {
+  color: #f7951d;
+}
+
+.fa-minus-circle {
+  color: red;
+}
+
+.fa-times-circle {
+  color: #a1a1a1;
+}
+
+.call-available-item {
+  width: 50%;
+  float: right;
+  padding-left: 25px;
+}
+
+.call-item {
+  padding-left: 30px;
+}
+
+.call-available-item .item-1 a,
+.call-incoming-item .item-2 a {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 9px;
+}
+
+.call-available-item .item-1 a img,
+.call-incoming-item .item-2 a img {
+  width: 100%;
+  height: 20px;
+}
+
+.call-incoming {
+  width: 50%;
+  float: left;
+  display: flex;
+}
+
+.incoming-menu .cirlce-phone {
+  background-color: #8cc835;
+}
+
+.call-incoming-item {
+  width: 50%;
+  float: right;
+  padding-left: 100px;
+}
+
+.call-headset {
+  width: 20%;
+  float: left;
+  display: flex;
+}
+
+.btn-headset {
+  margin-top: 0;
+}
+
+.dropdown-toggle {
+  color: #6f6f6f;
+}
+
+.headset-menu .dropdown-item i {
+  font-size: 16px;
+  color: #6f6f6f;
+}
+
+.fa-headset {
+  color: #6f6f6f;
+  font-size: 21px;
+}
+
+.call-headset-range {
+  width: 60%;
+  float: left;
+}
+
+.call-headset-range .form-group {
+  display: flex;
+}
+
+.call-headset-range .form-group i {
+  margin-right: 4px;
+}
+
+.call-range-option {
+  width: 20%;
+  float: right;
+}
+
+.btn-range-option {
+  border-left: 1px solid #6f6f6f;
+  margin-top: 0;
+  margin-left: 7px;
+}
+
+.call-item-4 {
+  padding: 7px 10px 3px;
+  height: 55px;
+}
+
+.call-number {
+  position: relative;
+}
+
+.call-number .form-control {
+  width: 75%;
+  height: 42px;
+  border: 1px solid red;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.btn-number {
+  position: absolute;
+  margin-top: 0;
+  top: 10px;
+  right: 83px;
+}
+
+.call-number .form-group .collapse {
+  border: 1px solid red;
+  margin-top: 5px;
+  border-radius: 0.2rem;
+}
+
+.call-number .collapse .card.card-body {
+  padding: 0;
+}
+
+.call-number .fa-phone {
+  color: #a1a1a1;
+  font-size: 12px;
+  position: unset;
+}
+
+.call-number .call-user {
+  position: absolute;
+  top: 0;
+  right: 35px;
+  width: 40px;
+  height: 43px;
+  padding: 7px;
+  background: #dfdfdf;
+  border-left: 1px solid #bfbfbf;
+}
+
+.call-number .call-user:hover,
+.call-number .call-user-option:hover {
+  background: #c1bfbf;
+}
+
+.call-number .call-user .fa-phone {
+  color: #8cc835;
+  font-size: 26px;
+}
+
+.call-number .call-user-option {
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 43px;
+  background: #dfdfdf;
+  border-left: 1px solid #bfbfbf;
+}
+
+.dailpad {
+  height: 322px;
+  width: 100%;
+  position: relative;
+}
+
+.call-dailpad,
+.call-contact,
+.call-search,
+.call-history,
+.call-conference {
+  height: 272px;
+  padding: 5px 10px;
+  position: absolute;
+  width: 319px;
+}
+
+.call-dailpad h4 {
+  font-size: 1.6rem;
+  color: #303030;
+}
+
+.dailpad-1 {
+  width: 96px;
+  height: 63px;
+  text-align: center;
+  padding: 6px 0;
+  float: left;
+  position: relative;
+  color: #303030;
+  border-right: 2px solid #c9c9c9;
+  border-bottom: 2px solid #c9c9c9;
+}
+
+.dailpad-2 {
+  width: 96px;
+  height: 63px;
+  text-align: center;
+  padding: 6px 0 15px;
+  float: left;
+  position: relative;
+  color: #303030;
+  border-right: 2px solid #c9c9c9;
+  border-bottom: 2px solid #c9c9c9;
+}
+
+.dailpad-3 {
+  width: 96px;
+  height: 63px;
+  text-align: center;
+  padding: 6px 0 15px;
+  float: left;
+  position: relative;
+  color: #303030;
+  border-bottom: 2px solid #c9c9c9;
+}
+
+.dailpad-1 span,
+.dailpad-2 span {
+  position: absolute;
+  bottom: 3px;
+  left: 32px;
+  color: #9f9fb7;
+}
+
+.dailpad-3 span {
+  position: absolute;
+  bottom: 3px;
+  left: 35px;
+  color: #9f9fb7;
+}
+
+.dailpad-4,
+.dailpad-5 {
+  width: 96px;
+  height: 63px;
+  text-align: center;
+  padding: 15px;
+  float: left;
+  position: relative;
+  color: #303030;
+  border-right: 2px solid #c9c9c9;
+}
+
+.dailpad-6 {
+  width: 96px;
+  height: 63px;
+  text-align: center;
+  padding: 15px;
+  float: left;
+  color: #303030;
+  position: relative;
+}
+
+.dailpad-1:hover,
+.dailpad-2:hover,
+.dailpad-3:hover,
+.dailpad-4:hover,
+.dailpad-5:hover,
+.dailpad-6:hover {
+  background-color: #dfdfdf;
+}
+
+.dailpad-items {
+  width: 312px;
+  height: 50px;
+  border-top: 2px solid #c9c9c9;
+  margin: 0 4px;
+  position: absolute;
+  bottom: 0;
+}
+
+.dailpad-item-1,
+.dailpad-item-2,
+.dailpad-item-3,
+.dailpad-item-4,
+.dailpad-item-5 {
+  width: 25%;
+  height: 100%;
+  float: left;
+  display: flex;
+  padding: 10px 14px;
+}
+
+.dailpad-item-1 .fa-ellipsis-v {
+  margin-right: 0px;
+  font-size: 25px;
+  color: #fd4000;
+}
+
+.btn-dailpad,
+.btn-favorites,
+.btn-conference {
+  padding: 0;
+  width: 55px;
+}
+
+.dailpad-item-2 .fa-user-alt,
+.dailpad-item-3 .fa-star,
+.dailpad-item-4 .fa-clock {
+  font-size: 25px;
+  color: #303030;
+}
+
+.dailpad-item-2 .fa-user-alt:hover,
+.dailpad-item-3 .fa-star:hover,
+.dailpad-item-4 .fa-clock:hover {
+  color: #fd4000;
+}
+
+.contact-search {
+  display: flex;
+  height: 34px;
+  margin-bottom: 4px;
+}
+
+.contact-search .form-control {
+  width: 100%;
+  height: 34px;
+  padding-left: 28px;
+  border-radius: 0.6rem;
+  position: relative;
+  background-color: #dedddd;
+  color: #c9c9c9;
+  border: 1px solid red;
+}
+
+.contact-search .form-group .fa-search {
+  position: absolute;
+  top: 5%;
+  color: #9e9e9e;
+  left: 6%;
+}
+
+.contact-search-item {
+  display: flex;
+}
+
+.contact-search-item .search-item-1,
+.contact-search-item .search-item-2 {
+  width: 46px;
+  height: 34px;
+  padding: 4px 15px;
+}
+
+.search-item-1 a i,
+.search-item-2 a i {
+  color: #8f8e8e;
+  font-size: 22px;
+}
+
+.btn-contact-data,
+.btn-contact-member,
+.btn-contact-member1,
+.btn-contact-member2 {
+  background: #bdbbbb;
+  border: none;
+  width: 100%;
+  text-align: left;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.team-member-no {
+  position: absolute;
+  right: 14px;
+  font-size: 14px;
+}
+
+.btn-contact-data .fa-caret-down,
+.btn-contact-member .fa-caret-down,
+.btn-contact-member1 .fa-caret-down,
+.btn-contact-member2 .fa-caret-down {
+  color: #8c8989;
+}
+
+.call-contact,
+.call-search,
+.call-history,
+.call-conference {
+  display: none;
+}
+
+.call-contact-data .collapse .card.card-body {
+  padding: 3px;
+  background: #eceaea;
+  border: none;
+  border-radius: 0;
+  position: relative;
+}
+
+.call-contact-data .collapse .card.card-body .team-name {
+  width: 35px;
+  height: 35px;
+  background: #908d8d;
+  border-radius: 50%;
+  margin: 2px 3px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-weight: 400;
+  position: relative;
+}
+
+.team-name .fa-check-circle {
+  color: #8cc835;
+  position: absolute;
+  right: -10px;
+  top: -2px;
+}
+
+.call-contact-data .collapse .card.card-body .team-title {
+  position: absolute;
+  left: 4em;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.call-contact-data .collapse .card.card-body .team-status {
+  position: absolute;
+  top: 1.5em;
+  left: 4em;
+  font-size: 13px;
+  color: #4c4b4b;
+}
+
+.team-call-item {
+  position: absolute;
+  right: 0px;
+  height: 45px;
+  width: 88px;
+  padding: 12px 1px;
+  margin-top: -3px;
+  display: none;
+}
+
+.team-call-item a .fa-phone {
+  color: #757575;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+.team-call-item a i img {
+  width: 30%;
+  position: absolute;
+  right: 22px;
+  top: 8px;
+}
+
+.call-contact-data .collapse .card.card-body:hover {
+  background-color: #afacac;
+}
+
+.call-contact-data .collapse .card.card-body:hover .team-call-item {
+  display: block;
+}
+
+.call-search .border_bottom {
+  width: 100%;
+  height: 2px;
+  margin-top: 4px;
+  background-color: #c9c9c9;
+}
+
+.call-search .contact-search .form-group {
+  width: 244px;
+}
+
+.call-history .contact-search .dropdown .dropdown-menu .dropdown-submenu {
+  position: relative;
+}
+
+.call-history .contact-search .dropdown .dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.call-history .contact-search .dropdown {
+  margin: 0 4px 0 5px;
+  border: 1px solid #bdbbbb;
+  background: #d6cfcf;
+  height: 31px;
+}
+
+.call-history .contact-search .dropdown .btn {
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.call-history .contact-search .dropdown .dropdown-menu {
+  padding: 0;
+  min-width: 110px !important;
+}
+
+.call-history .contact-search .dropdown .dropdown-menu li {
+  padding: 0.25rem 0.6rem;
+  width: 113px;
+  font-size: 12px;
+}
+
+.history-menu a,
+.history-submenu a {
+  color: black;
+  text-decoration: none;
+}
+
+.call-contact-history .history-item-1 {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #bdbbbb;
+}
+
+.call-contact-history .history-item-1 .fa-user-circle {
+  font-size: 35px;
+  margin: 6px 11px 0px 3px;
+}
+
+.history-item-1 .caller-name {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.history-item-1 .caller-number {
+  position: absolute;
+  margin-bottom: 0;
+  top: 24px;
+  left: 49px;
+  font-size: 11px;
+  color: #7d7c7c;
+}
+
+.history-item-1 .caller-number .fa-arrow-up {
+  color: #8cc835;
+  transform: rotate(45deg);
+}
+
+.history-item-1 .caller-number .fa-arrow-down {
+  color: red;
+  transform: rotate(45deg);
+}
+
+.history-item-1 .caller-time {
+  position: absolute;
+  right: 8px;
+}
+
+.history-item-1 .caller-time p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #7d7c7c;
+}
+
+.history-item-1:hover {
+  padding-left: 4px;
+  border-left: 4px solid #777676;
+}
+
+.dailpad-item-5 i img {
+  width: 27px;
+}
+
+.dailpad-item-5 i img:hover {
+  border-radius: 50%;
+  background-color: #fd4000;
+}
+
+.call-conference .conference-header {
+  display: flex;
+  position: relative;
+}
+
+.call-conference .conference-header .conference-title {
+  font-size: 15px;
+  margin: 5px 0 0 16px;
+}
+
+.call-conference .conference-header .contact-search-item {
+  position: absolute;
+  right: 13px;
+}
+
+.call-conference .conference-portal {
+  height: 200px;
+  display: block;
+}
+
+.portal-header {
+  height: 50px;
+  margin-top: 10px;
+  background: #525252;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.conference-portal .dropdown {
+  border: 1px solid #bdbbbb;
+  height: 50px;
+  width: 88%;
+  padding: 10px;
+  margin: 15px auto;
+  border-radius: 5px;
+  background: #f9f5f5;
+}
+
+.btn-conference-portal {
+  height: 43px;
+  color: #424141;
+  font-weight: 700;
+}
+
+.btn-conference-portal:hover {
+  color: #424141;
+  text-decoration: none;
+}
+
+.btn-conference-portal .fa-arrow-circle-right {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  color: #bdbbbb;
+  font-size: 22px;
+}
+
+.conference-portal .dropdown .dropdown-menu {
+  padding: 0px;
+  top: 25px !important;
+  min-width: 200px !important;
+}
+
+.conference-portal .dropdown .dropdown-menu .dropdown-item {
+  padding: 0.25rem 0.5rem;
+  font-size: 16px;
+}
+
+.conference-portal .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #bdbbbb;
+}
+
+.conference-portal
+  .dropdown
+  .dropdown-menu
+  .dropdown-item
+  .fa-chevron-circle-right {
+  color: #5d5d5d;
+}

@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bria- usman</title>
+    <link type='text/css' rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- FontAwesome CDN-->
+    <link type='text/css' rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="call">
+
+                <div class="call-header">
+
+                    <div class="dropdown">
+                        <button class="btn-phone " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Softphone
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">
+                                Account Settings
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Prefrences
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                Sign Out
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Exit Ctrl+Q
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn-view" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            View
+                        </button>
+                        <div class="dropdown-menu view-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Show Dialpad
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Show Contacts
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Show Favriotes
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Show History
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Show Collaboration
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Always On Top
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Message
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Video
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn-contact" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Contacts
+                        </button>
+                        <div class="dropdown-menu contact-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">
+                                <i class="space"></i>
+                                New Group
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="space"></i>
+                                Add Contact
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <i class="space"></i>
+                                Import Contacts..
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="space"></i>
+                                Export Contacts..
+                            </a>
+                            <div class="dropdown-divider"></div>
+
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Show Offline Contacts
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-check"></i>
+                                Show Groups
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-circle"></i>
+                                Sot by Name
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-circle"></i>
+                                Sort by online Status
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <i class="space"></i>
+                                Collapse All Group
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="space"></i>
+                                Expand All Group
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn-help" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Help
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">
+                                Help
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                User Guide
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Trouble Shooting
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Check For Updates
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                About
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="call-items">
+
+                    <div class="call-item-1">
+                        <div class="call-avaliable">
+                            <i class="fas fa-check-circle"></i>
+                            <div class="dropdown">
+                                <button class="btn-avaliable dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span>Presence Status</span>
+                                    Avaliable
+                                </button>
+                                <div class="dropdown-menu avaliable-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-check-circle"></i>
+                                        Avaliable
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="cirlce-phone">
+                                            <i class="line-busy"></i>
+                                        </div>
+                                        Busy
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-clock"></i>
+                                        Away
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="cirlce-phone">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        On the Phone
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-minus-circle"></i>
+                                        Not Available for calls
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-minus-circle"></i>
+                                        Do Not distrub
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-times-circle"></i>
+                                        Appear offline
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="call-available-item">
+
+                            <div class="item-1">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                    title="Start sharing your screen">
+                                    <img src="./icons/share.svg" alt="">
+                                </a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                    title="Start or schedule a confernce">
+                                    <img src="./icons/contact.svg" alt="">
+                                </a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                    title="Show the message window">
+                                    <img src="./icons/comment.svg" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="call-item-2">
+
+                        <div class="call-incoming">
+
+                            <a class="call-img" href="#">
+                                <img src="call.png" alt="">
+                            </a>
+
+                            <div class="dropdown">
+                                <button class="btn-incoming dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span>Outgoing Account</span>
+                                    Team Voice
+                                </button>
+                                <div class="dropdown-menu incoming-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">
+                                        <div class="cirlce-phone">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        Team Voice
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-cog"></i>
+                                        Account Settings
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="call-incoming-item">
+
+                            <div class="item-2">
+
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Voice message">
+                                    <img src="./icons/voicemail.svg" alt="">
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="call-item-3">
+
+                        <div class="call-headset">
+                            <i class="fas fa-headset"></i>
+                            <div class="dropdown">
+                                <button class="btn-headset dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                </button>
+                                <div class="dropdown-menu headset-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-headset"></i>
+                                        Headset Mode
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-phone-volume"></i>
+                                        Speakerphone Mode
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-cog"></i>
+                                        Device Settings
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="call-headset-range">
+                            <form>
+                                <div class="form-group">
+                                    <i class="fas fa-volume-up"></i>
+                                    <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="call-range-option">
+                            <div class="dropdown">
+                                <button class="btn-range-option dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                </button>
+                                <div class="dropdown-menu range-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Auto Answer</a>
+                                    <a class="dropdown-item" href="#">Hide my Number</a>
+                                    <a class="dropdown-item" href="#">Turn letters to Numbers</a>
+                                    <a class="dropdown-item" href="#">Disabled Call waiting</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="call-item-4">
+
+                        <div class="call-number">
+
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter name or number" required
+                                        autofocus autocomplete="off">
+                                    <button class="btn-number dropdown-toggle" type="button" data-toggle="collapse"
+                                        data-target="#collapseExample" aria-expanded="false"
+                                        aria-controls="collapseExample">
+
+                                    </button>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                            <a class="dropdown-item" href="#">
+                                                <i class="fas fa-phone"></i>
+                                                0876479009
+                                            </a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="fas fa-phone"></i>
+                                                0876479009
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <span class="call-user">
+                                    <i class="fas fa-phone"></i>
+                                </span>
+
+                                <span class="call-user-option">
+                                    <div class="dropdown">
+                                        <button class="btn-user-option dropdown-toggle" type="button"
+                                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                        </button>
+                                        <div class="dropdown-menu user-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </span>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="dailpad">
+
+                    <div class="call-dailpad" id="myDIV1">
+
+                        <div class="dailpad-1">
+                            <h4>1</h4>
+                        </div>
+
+                        <div class="dailpad-2">
+                            <h4>2</h4>
+                            <span>ABC</span>
+                        </div>
+
+                        <div class="dailpad-3">
+                            <h4>3</h4>
+                            <span>DEF</span>
+                        </div>
+
+                        <div class="dailpad-1">
+                            <h4>4</h4>
+                            <span>GHI</span>
+                        </div>
+
+                        <div class="dailpad-2">
+                            <h4>5</h4>
+                            <span>JKL</span>
+                        </div>
+
+                        <div class="dailpad-3">
+                            <h4>6</h4>
+                            <span>MNO</span>
+                        </div>
+
+                        <div class="dailpad-1">
+                            <h4>7</h4>
+                            <span>PQR</span>
+                        </div>
+
+                        <div class="dailpad-2">
+                            <h4>8</h4>
+                            <span>STU</span>
+                        </div>
+
+                        <div class="dailpad-3">
+                            <h4>9</h4>
+                            <span style="left: 30px;">WXYZ</span>
+                        </div>
+
+                        <div class="dailpad-4">
+                            <h4>*</h4>
+                        </div>
+
+                        <div class="dailpad-5">
+                            <h4>0</h4>
+                        </div>
+
+                        <div class="dailpad-6">
+                            <h4>#</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="call-contact" id="myDIV2">
+
+                        <div class="contact-search">
+
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search Contacts" required
+                                        autofocus autocomplete="off">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </form>
+
+                            <div class="contact-search-item">
+
+                                <div class="search-item-1">
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add Contacts">
+                                        <i class="fas fa-user-plus"></i>
+                                    </a>
+                                </div>
+
+                                <div class="search-item-2">
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Detach Window">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="call-contact-data">
+                            <button class="btn-contact-data " type="button" data-toggle="collapse"
+                                data-target="#call-contact-data" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-caret-down"></i>
+                                Baria Team
+                                <span class="team-member-no"> 1</span>
+                            </button>
+                            <div class="collapse" id="call-contact-data">
+                                <div class="card card-body">
+                                    <span class="team-name">BT
+                                        <i class="fas fa-check-circle"></i>
+                                    </span>
+                                    <span class="team-title">Baira Teams Chat Bot</span>
+                                    <p class="team-status">Available</p>
+
+                                    <div class="team-call-item">
+                                        <a href="#">
+                                            <i class="fas fa-phone"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i>
+                                                <img src="./icons/contact.svg" alt="">
+                                            </i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <button class="btn-contact-member " type="button" data-toggle="collapse"
+                                data-target="#call-contact-data" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-caret-down"></i>
+                                Family
+                                <span class="team-member-no"> 0</span>
+                            </button>
+                            <div class="collapse" id="call-contact-member">
+                                <div class="card card-body">
+                                    <span class="team-name">BT
+                                        <i class="fas fa-check-circle"></i>
+                                    </span>
+                                    <span class="team-title">Baira Teams Chat Bot</span>
+                                    <p class="team-status">Available</p>
+
+                                    <div class="team-call-item">
+                                        <a href="#">
+                                            <i class="fas fa-phone"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i>
+                                                <img src="./icons/contact.svg" alt="">
+                                            </i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <button class="btn-contact-member1 " type="button" data-toggle="collapse"
+                                data-target="#call-contact-data" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-caret-down"></i>
+                                Friends
+                                <span class="team-member-no"> 0</span>
+                            </button>
+                            <div class="collapse" id="call-contact-member2">
+                                <div class="card card-body">
+                                    <span class="team-name">BT
+                                        <i class="fas fa-check-circle"></i>
+                                    </span>
+                                    <span class="team-title">Baira Teams Chat Bot</span>
+                                    <p class="team-status">Available</p>
+
+                                    <div class="team-call-item">
+                                        <a href="#">
+                                            <i class="fas fa-phone"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i>
+                                                <img src="./icons/contact.svg" alt="">
+                                            </i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <button class="btn-contact-member2 " type="button" data-toggle="collapse"
+                                data-target="#call-contact-data" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-caret-down"></i>
+                                Work
+                                <span class="team-member-no"> 0</span>
+                            </button>
+                            <div class="collapse" id="call-contact-member2">
+                                <div class="card card-body">
+                                    <span class="team-name">BT
+                                        <i class="fas fa-check-circle"></i>
+                                    </span>
+                                    <span class="team-title">Baira Teams Chat Bot</span>
+                                    <p class="team-status">Available</p>
+
+                                    <div class="team-call-item">
+                                        <a href="#">
+                                            <i class="fas fa-phone"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i>
+                                                <img src="./icons/contact.svg" alt="">
+                                            </i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="call-search" id="myDIV3">
+                        <div class="contact-search">
+
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search Contacts" required
+                                        autofocus autocomplete="off">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </form>
+
+                            <div class="contact-search-item">
+
+                                <div class="search-item-2">
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Detach Window">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="border_bottom"></div>
+                    </div>
+
+                    <div class="call-history" id="myDIV4">
+
+                        <div class="contact-search">
+
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search Contacts" required
+                                        autofocus autocomplete="off">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </form>
+
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">All
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu history-menu">
+                                    <li>
+                                        <a tabindex="-1" href="#">All</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">Missed Calls</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">Conference</a>
+                                    </li>
+                                    <li class="dropdown-submenu history-submenu">
+                                        <a class="test" tabindex="-1" href="#">Recordings
+                                            <i class="fas fa-caret-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a tabindex="-1" href="#">All</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="#">Conference</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="#">Call</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu history-submenu">
+                                        <a class="test" tabindex="-1" href="#">Date
+                                            <i class="fas fa-caret-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a tabindex="-1" href="#">Today</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="#">Yesterday</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="#">This Week</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="#">This Month</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="#">Last Seven Days</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="#">Last Thirty Days</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="contact-search-item">
+
+                                <div class="search-item-2">
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Detach Window">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="call-contact-history">
+
+                            <div class="history-item-1">
+                                <i class="fas fa-user-circle"></i>
+                                <p class="caller-name">unknown (1)</p>
+                                <p class="caller-number">03454059954
+                                    <i class="fas fa-arrow-up"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </p>
+
+                                <div class="caller-time">
+                                    <p class="call-date">Tuesday</p>
+                                    <p class="call-time">2:48 PM</p>
+                                </div>
+                            </div>
+
+                            <div class="history-item-1">
+                                <i class="fas fa-user-circle"></i>
+                                <p class="caller-name">unknown (2)</p>
+                                <p class="caller-number">03454059954
+                                    <i class="fas fa-arrow-up"></i>
+                                    <i class="fas fa-arrow-up"></i>
+                                </p>
+
+                                <div class="caller-time">
+                                    <p class="call-date">Tuesday</p>
+                                    <p class="call-time">2:48 PM</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="call-conference" id="myDIV5">
+
+                        <div class="conference-header">
+                            <span class="conference-title">Stretto User Portal</span>
+                            <div class="contact-search-item">
+
+                                <div class="search-item-2">
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Detach Window">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="conference-portal">
+                            <div class="portal-header">
+                                <p>User Portal</p>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="btn-conference-portal" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Conference
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">
+                                        Conference Settings
+                                        <i class="fas fa-chevron-circle-right" style="margin-left: 21px;"></i>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        Conference Recordings
+                                        <i class="fas fa-chevron-circle-right"></i>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <input type="text"
+                                            placeholder="https://collab.softphone.com:18990/join/XYUYFTAEZT/bria-x.314971"></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="dailpad-items">
+
+                        <button class="btn-dailpad" type="button" onclick="myFunction1()">
+                            <div class="dailpad-item-1" data-toggle="tooltip" data-placement="bottom" title="Dailpad">
+                                <i class="fas fa-ellipsis-v"></i>
+                                <span><i class="fas fa-ellipsis-v"></i></span>
+                                <span><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </button>
+
+                        <button class="btn-dailpad" type="button" onclick="myFunction2()">
+                            <a href="#">
+                                <div class="dailpad-item-2" data-toggle="tooltip" data-placement="bottom"
+                                    title="Contacts">
+                                    <i class="fas fa-user-alt"></i>
+                                </div>
+                            </a>
+                        </button>
+
+                        <button class="btn-favorites" type="button" onclick="myFunction3()">
+                            <a href="#">
+                                <div class="dailpad-item-3" data-toggle="tooltip" data-placement="bottom"
+                                    title="Favorites">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </a>
+                        </button>
+
+                        <button class="btn-favorites" type="button" onclick="myFunction4()">
+                            <a href="#">
+                                <div class="dailpad-item-4" data-toggle="tooltip" data-placement="bottom"
+                                    title="Call History">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                            </a>
+                        </button>
+
+                        <button class="btn-conference" type="button" onclick="myFunction5()">
+                            <a href="#">
+                                <div class="dailpad-item-5" data-toggle="tooltip" data-placement="bottom"
+                                    title="Conference">
+                                    <i>
+                                        <img src="./icons/contact.svg" alt="">
+                                    </i>
+                                </div>
+                            </a>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script type="text/javascript"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+
+        function myFunction1() {
+
+            document.getElementById("myDIV1").style.display = "block";
+
+            document.getElementById("myDIV2").style.display = "none";
+
+            document.getElementById("myDIV3").style.display = "none";
+
+            document.getElementById("myDIV4").style.display = "none";
+
+            document.getElementById("myDIV5").style.display = "none";
+
+        }
+
+        function myFunction2() {
+
+            document.getElementById("myDIV1").style.display = "none";
+
+            document.getElementById("myDIV2").style.display = "block";
+
+            document.getElementById("myDIV3").style.display = "none";
+
+            document.getElementById("myDIV4").style.display = "none";
+
+            document.getElementById("myDIV5").style.display = "none";
+
+        }
+
+        function myFunction3() {
+
+            document.getElementById("myDIV1").style.display = "none";
+
+            document.getElementById("myDIV2").style.display = "none";
+
+            document.getElementById("myDIV3").style.display = "block";
+
+            document.getElementById("myDIV4").style.display = "none";
+
+            document.getElementById("myDIV5").style.display = "none";
+
+        }
+
+        function myFunction4() {
+
+            document.getElementById("myDIV1").style.display = "none";
+
+            document.getElementById("myDIV2").style.display = "none";
+
+            document.getElementById("myDIV3").style.display = "none";
+
+            document.getElementById("myDIV4").style.display = "block";
+
+            document.getElementById("myDIV5").style.display = "none";
+
+        }
+
+        function myFunction4() {
+
+            document.getElementById("myDIV1").style.display = "none";
+
+            document.getElementById("myDIV2").style.display = "none";
+
+            document.getElementById("myDIV3").style.display = "none";
+
+            document.getElementById("myDIV4").style.display = "none";
+
+            document.getElementById("myDIV5").style.display = "block";
+
+        }
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-submenu a.test').on("click", function (e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+
+</html>

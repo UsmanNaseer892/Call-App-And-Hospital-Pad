@@ -1,0 +1,252 @@
+.main {
+  width: 595px;
+  height: 842px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.main .header {
+  width: 100%;
+  height: 160px;
+}
+
+.header .section-left {
+  width: 40%;
+  float: left;
+  height: auto;
+}
+
+.header .section-left h5.doctor-title,
+.header .section-right h5.doctor-title {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-style: italic;
+  margin-block-end: 0;
+}
+
+.header .section-left h4.doctor-name,
+.header .section-right h4.doctor-name {
+  margin-block-end: 0;
+  margin-block-start: 8px;
+  font-size: 26px;
+  color: #e20a0af0;
+  font-weight: bold;
+}
+
+.header .section-left p.doctor-info-1,
+.header .section-right p.doctor-info-1 {
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
+  margin-block-end: 0;
+  margin-block-start: 0px;
+}
+
+.header .section-left p.doctor-info-1.info-1,
+.header .section-right p.doctor-info-1.info-1 {
+  margin-block-start: 20px;
+}
+
+.header .section-center {
+  width: 20%;
+  float: left;
+  height: auto;
+}
+.header .section-center img {
+  width: 100%;
+}
+
+.header .section-right {
+  float: right;
+  width: 40%;
+  height: auto;
+  text-align: right;
+}
+
+.border-top-line {
+  height: 36px;
+  margin-block-end: 8px;
+}
+
+.border-top-line ul {
+  list-style: none;
+  padding: 0;
+}
+
+.border-top-line ul li {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.border-top-line ul li img {
+  width: 100%;
+}
+
+.patient-info {
+  height: 25px;
+}
+
+.patient-info span {
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  font-style: italic;
+}
+
+.patient-info span p.line-name {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  float: right;
+  margin-block-start: 1em;
+}
+
+.patient-info span p.line-name1 {
+  width: 197px;
+  height: 2px;
+  background-color: black;
+  float: right;
+  margin-block-start: 1em;
+}
+
+.patient-info span p.line-name i {
+  position: relative;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  top: -17px;
+  left: 15px;
+  font-size: 15px;
+}
+
+.patient-info span p.line-name2 {
+  width: 85px;
+  height: 2px;
+  background-color: black;
+  float: right;
+  margin-block-start: 1em;
+}
+
+.patient-description {
+  width: 100%;
+  height: 700px;
+}
+
+.patient-description .section-description-left {
+  width: 26%;
+  float: left;
+}
+
+.patient-description .section-description-left span {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  display: inline-flex;
+  margin-block-end: 1em;
+}
+
+.patient-description .section-description-left span p.line-name1 {
+  width: 102px;
+  height: 2px;
+  background-color: black;
+  margin-block-start: 1em;
+}
+
+.patient-description .section-description-left span p.line-name1.ml1 {
+  margin-left: 13px;
+}
+
+.section-description-center {
+  width: 4%;
+  float: left;
+}
+
+.section-description-center .border-top-line ul li {
+  float: none;
+}
+
+.section-description-right {
+  width: 70%;
+  float: right;
+  background-image: url("stethoscope.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+
+.description-right-footer {
+  margin-block-start: 40em;
+  background-color: #141446e3;
+  color: white;
+  width: 100%;
+  height: 40px;
+}
+
+.description-right-footer .footer-right {
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-right .clinic-timing {
+  width: 77%;
+  font-size: 12px;
+  height: 100%;
+  float: left;
+  text-align: right;
+  padding-top: 10px;
+  margin-right: 8px;
+}
+
+.footer-right .timing {
+  width: 21%;
+  height: 100%;
+  float: left;
+  font-size: 14px;
+  background-color: red;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+
+.footer {
+  width: 100%;
+  height: 105px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .footer-info {
+  width: 100%;
+  height: 54%;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #343475e3;
+}
+
+.footer .footer-info p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.footer-info p.address-dispensry {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: #5555e8b0;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-info span.address {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 0 0 12px 12px;
+}
